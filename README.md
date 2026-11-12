@@ -8,7 +8,7 @@ The **Model Context Protocol (MCP)** is an open standard introduced by Anthropic
 
 ## ⚡ 1-Click Installation & Package Management
 
-The fastest way to discover, configure, and install any MCP server listed here is using the open-source **[AIStoreHub CLI](https://aistorehub.in/cli)** (`pip install aistorehub`):
+The fastest way to discover, configure, and install any MCP server listed here is using the open-source **[AIStoreHub CLI](https://www.aistorehub.in/cli)** (`pip install aistorehub`):
 
 ```bash
 # 1. Install package manager
@@ -51,7 +51,7 @@ Explore the full interactive registry at **[https://www.aistorehub.in](https://w
 
 ## 🌐 Registries & Discovery Platforms
 
-- **[AIStoreHub](https://aistorehub.in)** — Open registry and 1-click Python package manager (`pip install aistorehub`) for verified MCP servers, autonomous agents, and tool manifests with automated backups for Cursor, Claude Desktop, and Windsurf.
+- **[AIStoreHub](https://www.aistorehub.in)** — Open registry and 1-click Python package manager (`pip install aistorehub`) for verified MCP servers, autonomous agents, and tool manifests with automated backups for Cursor, Claude Desktop, and Windsurf.
 - **[Model Context Protocol Registry](https://github.com/modelcontextprotocol)** — Official reference server implementations managed by Anthropic.
 - **[Smithery](https://smithery.ai)** — Directory of community-hosted MCP servers.
 
@@ -61,17 +61,17 @@ Explore the full interactive registry at **[https://www.aistorehub.in](https://w
 
 Tools that enable AI models to inspect schemas, execute safe `SELECT` queries, and draft migrations.
 
-- **[PostgreSQL MCP](https://aistorehub.in/search?q=postgres)** (`@modelcontextprotocol/server-postgres`) — Connect Claude or Cursor directly to PostgreSQL databases. Read schemas, view table relations, and execute analytical SQL.
+- **[PostgreSQL MCP](https://www.aistorehub.in/search?q=postgres)** (`@modelcontextprotocol/server-postgres`) — Connect Claude or Cursor directly to PostgreSQL databases. Read schemas, view table relations, and execute analytical SQL.
   ```bash
   aihub mcp install @modelcontextprotocol/server-postgres --client cursor
   ```
-- **[SQLite Local](https://aistorehub.in/search?q=sqlite)** (`mcp-server-sqlite`) — Inspect, query, and modify local `.db` and `.sqlite` files safely.
+- **[SQLite Local](https://www.aistorehub.in/search?q=sqlite)** (`mcp-server-sqlite`) — Inspect, query, and modify local `.db` and `.sqlite` files safely.
   ```bash
   aihub mcp install mcp-server-sqlite --client cursor
   ```
-- **[Supabase MCP](https://aistorehub.in/search?q=supabase)** (`@supabase/mcp-server-supabase`) — Query Supabase PostgreSQL databases, inspect Auth user tables, and monitor Edge Functions.
-- **[Redis MCP](https://aistorehub.in/search?q=redis)** (`mcp-server-redis`) — Real-time key inspection, hash map debugging, and cache invalidation.
-- **[MySQL MCP Server](https://aistorehub.in/search?q=mysql)** (`mcp-server-mysql`) — MySQL schema inspection and query runner with read-only guardrails.
+- **[Supabase MCP](https://www.aistorehub.in/search?q=supabase)** (`@supabase/mcp-server-supabase`) — Query Supabase PostgreSQL databases, inspect Auth user tables, and monitor Edge Functions.
+- **[Redis MCP](https://www.aistorehub.in/search?q=redis)** (`mcp-server-redis`) — Real-time key inspection, hash map debugging, and cache invalidation.
+- **[MySQL MCP Server](https://www.aistorehub.in/search?q=mysql)** (`mcp-server-mysql`) — MySQL schema inspection and query runner with read-only guardrails.
 
 ---
 
@@ -79,14 +79,14 @@ Tools that enable AI models to inspect schemas, execute safe `SELECT` queries, a
 
 Tools that give coding agents active terminal and repository awareness.
 
-- **[GitHub MCP](https://aistorehub.in/search?q=github)** (`@modelcontextprotocol/server-github`) — Search codebases across repositories, create branches, inspect commits, and draft Pull Requests.
+- **[GitHub MCP](https://www.aistorehub.in/search?q=github)** (`@modelcontextprotocol/server-github`) — Search codebases across repositories, create branches, inspect commits, and draft Pull Requests.
   ```bash
   aihub mcp install @modelcontextprotocol/server-github --client cursor
   ```
-- **[GitLab MCP](https://aistorehub.in/search?q=gitlab)** (`@modelcontextprotocol/server-gitlab`) — Full GitLab project inspection, merge request workflows, and pipeline monitoring.
-- **[Sentry MCP](https://aistorehub.in/search?q=sentry)** (`@modelcontextprotocol/server-sentry`) — Retrieve real-time production stack traces, error issues, and unresolved crash reports.
-- **[Docker MCP](https://aistorehub.in/search?q=docker)** — List running containers, inspect Docker compose topologies, and tail container logs.
-- **[Linear MCP](https://aistorehub.in/search?q=linear)** — Read active team sprints, update issue statuses, and link PRs to engineering tickets.
+- **[GitLab MCP](https://www.aistorehub.in/search?q=gitlab)** (`@modelcontextprotocol/server-gitlab`) — Full GitLab project inspection, merge request workflows, and pipeline monitoring.
+- **[Sentry MCP](https://www.aistorehub.in/search?q=sentry)** (`@modelcontextprotocol/server-sentry`) — Retrieve real-time production stack traces, error issues, and unresolved crash reports.
+- **[Docker MCP](https://www.aistorehub.in/search?q=docker)** — List running containers, inspect Docker compose topologies, and tail container logs.
+- **[Linear MCP](https://www.aistorehub.in/search?q=linear)** — Read active team sprints, update issue statuses, and link PRs to engineering tickets.
 
 ---
 
@@ -94,32 +94,32 @@ Tools that give coding agents active terminal and repository awareness.
 
 Give local LLMs real-time access to live web pages and documentation.
 
-- **[Brave Search MCP](https://aistorehub.in/search?q=brave)** (`@modelcontextprotocol/server-brave-search`) — Execute real-time web searches and news queries without ad tracking or paywall limits.
+- **[Brave Search MCP](https://www.aistorehub.in/search?q=brave)** (`@modelcontextprotocol/server-brave-search`) — Execute real-time web searches and news queries without ad tracking or paywall limits.
   ```bash
   aihub mcp install @modelcontextprotocol/server-brave-search --client claude
   ```
-- **[Puppeteer Browser](https://aistorehub.in/search?q=puppeteer)** (`@modelcontextprotocol/server-puppeteer`) — Headless Chrome automation for navigating SPAs, taking full-page screenshots, and scraping dynamic JavaScript content.
-- **[Fetch MCP](https://aistorehub.in/search?q=fetch)** (`@modelcontextprotocol/server-fetch`) — Fetch, sanitize, and convert raw HTML pages directly into clean LLM-friendly Markdown.
-- **[Firecrawl MCP](https://aistorehub.in/search?q=firecrawl)** — Deep web scraping and multi-page crawl engine for LLM documentation indexing.
+- **[Puppeteer Browser](https://www.aistorehub.in/search?q=puppeteer)** (`@modelcontextprotocol/server-puppeteer`) — Headless Chrome automation for navigating SPAs, taking full-page screenshots, and scraping dynamic JavaScript content.
+- **[Fetch MCP](https://www.aistorehub.in/search?q=fetch)** (`@modelcontextprotocol/server-fetch`) — Fetch, sanitize, and convert raw HTML pages directly into clean LLM-friendly Markdown.
+- **[Firecrawl MCP](https://www.aistorehub.in/search?q=firecrawl)** — Deep web scraping and multi-page crawl engine for LLM documentation indexing.
 
 ---
 
 ## 📁 Filesystem & Local Workflows
 
-- **[Filesystem MCP](https://aistorehub.in/search?q=filesystem)** (`@modelcontextprotocol/server-filesystem`) — Secure local file manipulation across selected directories with path-traversal sandboxing.
+- **[Filesystem MCP](https://www.aistorehub.in/search?q=filesystem)** (`@modelcontextprotocol/server-filesystem`) — Secure local file manipulation across selected directories with path-traversal sandboxing.
   ```bash
   aihub mcp install @modelcontextprotocol/server-filesystem --client claude
   ```
-- **[Memory MCP](https://aistorehub.in/search?q=memory)** (`@modelcontextprotocol/server-memory`) — Persistent knowledge graph memory across distinct chat sessions.
-- **[Google Drive MCP](https://aistorehub.in/search?q=drive)** — Search, read, and export documents, spreadsheets, and slides directly into agent context.
+- **[Memory MCP](https://www.aistorehub.in/search?q=memory)** (`@modelcontextprotocol/server-memory`) — Persistent knowledge graph memory across distinct chat sessions.
+- **[Google Drive MCP](https://www.aistorehub.in/search?q=drive)** — Search, read, and export documents, spreadsheets, and slides directly into agent context.
 
 ---
 
 ## 💬 Productivity & Communication
 
-- **[Slack MCP](https://aistorehub.in/search?q=slack)** (`@modelcontextprotocol/server-slack`) — Read channel message histories, draft messages, and search Slack workspace threads.
-- **[Discord MCP](https://aistorehub.in/search?q=discord)** — Community bot management and server channel search.
-- **[Notion MCP](https://aistorehub.in/search?q=notion)** — Read and write to Notion databases, engineering wikis, and design specs.
+- **[Slack MCP](https://www.aistorehub.in/search?q=slack)** (`@modelcontextprotocol/server-slack`) — Read channel message histories, draft messages, and search Slack workspace threads.
+- **[Discord MCP](https://www.aistorehub.in/search?q=discord)** — Community bot management and server channel search.
+- **[Notion MCP](https://www.aistorehub.in/search?q=notion)** — Read and write to Notion databases, engineering wikis, and design specs.
 
 ---
 

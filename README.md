@@ -25,7 +25,13 @@ aihub list --client cursor
 
 *Automates schema validation, resolves non-login `$PATH` binary bugs, and creates timestamped safety backups of your config files before modifying them.*
 
-Explore the full interactive registry at **[aistorehub.in](https://aistorehub.in)**.
+Explore the full interactive registry at **[https://www.aistorehub.in](https://www.aistorehub.in)**.
+
+* **[AIStoreHub MCP Server Catalog](https://www.aistorehub.in/categories/mcp-servers)** — 250+ community-verified tools with 1-click install.
+* **[Omniroute Multi-LLM Router](https://www.aistorehub.in/community/catalog/omniroute)** — Dynamic model fallback and latency-optimized routing.
+* **[Super Video Maker](https://www.aistorehub.in/community/catalog/super-video-maker-skill)** — Autonomous video composition and timeline stitching pipeline.
+* **[PostgreSQL Inspector](https://www.aistorehub.in/community/catalog/mcp-server-postgres)** — Real-time schema discovery and SQL migration testing.
+* **[Filesystem MCP](https://www.aistorehub.in/community/catalog/mcp-filesystem)** — Sandboxed directory execution for Cursor and Claude.
 
 ---
 
@@ -142,7 +148,12 @@ Encountering a red status indicator or a crash? Here are the top 3 failure modes
    * *Problem*: Standard JSON parsers reject trailing commas after the last item.
    * *Fix*: Run `python -m json.tool <config-file>` or let `aihub mcp install` validate schemas automatically.
 
-Read our complete [MCP Debugging Playbook](https://aistorehub.in/blog/mcp-connection-closed-exit-code-debugging-guide) for comprehensive fixes.
+Read our complete technical handbooks on AIStoreHub:
+* **[Top 25 Model Context Protocol Servers Handbook (2026)](https://www.aistorehub.in/blog/top-mcp-servers-cursor-claude-2026)**
+* **[How to Build an MCP Server with Python FastMCP](https://www.aistorehub.in/blog/how-to-build-python-mcp-server-fastmcp)**
+* **[Where is claude_desktop_config.json? Exact Paths for Windows & Mac](https://www.aistorehub.in/blog/claude-desktop-mcp-setup-troubleshooting-guide)**
+* **[How to Add & Configure MCP in Cursor: Complete mcp.json Setup Guide](https://www.aistorehub.in/blog/cursor-mcp-setup-guide-troubleshooting-tools)**
+* **[Fixing MCP Error -32000 Connection Closed & Exit Code 1 Errors](https://www.aistorehub.in/blog/mcp-connection-closed-exit-code-debugging-guide)**
 
 ---
 
